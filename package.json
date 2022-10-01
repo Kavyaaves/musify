@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-spotify-player": "^1.0.4",
@@ -34,5 +35,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavyaaves/musify.git"
+  },
+  "author": "Kavyaaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kavyaaves/musify/issues"
+  },
+  "homepage": "https://github.com/Kavyaaves/musify",
+  "devDependencies": {
+    "gh-pages": "^3.2.1"
   }
 }
