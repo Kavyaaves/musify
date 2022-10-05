@@ -33,13 +33,20 @@ const Timer = () => {
     }
     return () => clearInterval(interval);
   }, [isActive, seconds]);
+
   return (
     <div style={{display: 'flex', flexDirection: "column",alignItems: 'center', justifyContent: 'space-evenly'}}>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 150 }}>
+     
+      <br/>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
+        <button style={{ backgroundColor: 'gold',border:0, color: "#fff",cursor: "pointer", borderRadius: 10, paddingLeft: 20, paddingRight: 20, paddingBottom:10, paddingTop:10, color: "#162252"}} onClick={toggle}>
+          <span style={{fontSize:16}}>{isActive ? 'Pause' : 'Start'}</span>
+        </button>
+         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 150, paddingLeft: 100, paddingRight:100 }}>
         <CircularProgressbar
         value={(seconds/30)*100}
         text={seconds}
-          styles={buildStyles(seconds >5?{
+          styles={buildStyles(seconds > 5?{
             textColor: "gold",
             textSize:40,
         pathColor: "gold",
@@ -55,12 +62,7 @@ const Timer = () => {
         />
        {/* <h1 style={{backgroundColor: "#FFBF00", borderRadius: "5px", width: "100px", color:"#fff", fontSize: 70}}>{seconds}</h1> */}
       </div>
-      <br/>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10 }}>
-        <button style={{ backgroundColor: 'gold',border:0, color: "#fff",cursor: "pointer", borderRadius: 10, paddingLeft: 20, paddingRight: 20, paddingBottom:10, paddingTop:10}} onClick={toggle}>
-          <span style={{fontSize:16}}>{isActive ? 'Pause' : 'Start'}</span>
-        </button>
-        <button style={{ backgroundColor: 'white', border: "3px solid #162252", cursor: "pointer", borderRadius: 10, paddingLeft: 20, paddingRight: 20, paddingBottom:10, paddingTop:10}} onClick={reset}>
+        <button style={{ backgroundColor: 'white', border: "3px solid #162252", cursor: "pointer", borderRadius: 10, paddingLeft: 20, paddingRight: 20, paddingBottom:10, paddingTop:10, color: "#162252"}} onClick={reset}>
           <span style={{fontSize:16}}>Reset</span>
         </button>
       </div>

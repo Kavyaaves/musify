@@ -1,7 +1,7 @@
 /* CSS */
 .button-27 {
     appearance: none;
-    background-color: #f0f0f0;
+    background-color: #000080;
     border: 2px solid #f0f0f0;
     border-radius: 15px;
     box-sizing: border-box;
@@ -107,3 +107,4 @@
     top: 0.7em;
     right: -2.3em;
 }
+

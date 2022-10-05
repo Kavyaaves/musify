@@ -37,7 +37,8 @@ console.log(twistNo)
 
   return (
       <div>
-        <span style={{fontSize:20, fontWeight: 'bold', color: 'gold'}}>Choose your twister 🎁</span>
+          <br/>
+        <span style={{fontSize:20, fontWeight: 'bold', color: 'gold', paddingTop: 20}}>Choose your topic 🎁</span>
       <br />
       <br />
       
