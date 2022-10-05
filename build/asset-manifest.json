@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Kavyaaves/musify/static/css/main.2b99ddeb.chunk.css",
+    "main.js": "/Kavyaaves/musify/static/js/main.bb2f7325.chunk.js",
+    "main.js.map": "/Kavyaaves/musify/static/js/main.bb2f7325.chunk.js.map",
+    "runtime-main.js": "/Kavyaaves/musify/static/js/runtime-main.f4f3eba2.js",
+    "runtime-main.js.map": "/Kavyaaves/musify/static/js/runtime-main.f4f3eba2.js.map",
+    "static/css/2.f524894f.chunk.css": "/Kavyaaves/musify/static/css/2.f524894f.chunk.css",
+    "static/js/2.6be29c9c.chunk.js": "/Kavyaaves/musify/static/js/2.6be29c9c.chunk.js",
+    "static/js/2.6be29c9c.chunk.js.map": "/Kavyaaves/musify/static/js/2.6be29c9c.chunk.js.map",
+    "index.html": "/Kavyaaves/musify/index.html",
+    "precache-manifest.55ca8c750cec0792c36c25402e48cb1a.js": "/Kavyaaves/musify/precache-manifest.55ca8c750cec0792c36c25402e48cb1a.js",
+    "service-worker.js": "/Kavyaaves/musify/service-worker.js",
+    "static/css/2.f524894f.chunk.css.map": "/Kavyaaves/musify/static/css/2.f524894f.chunk.css.map",
+    "static/css/main.2b99ddeb.chunk.css.map": "/Kavyaaves/musify/static/css/main.2b99ddeb.chunk.css.map",
+    "static/js/2.6be29c9c.chunk.js.LICENSE.txt": "/Kavyaaves/musify/static/js/2.6be29c9c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Kavyaaves/musify/static/media/gifbg.290de989.gif",
+    "static/media/jslogo.png": "/Kavyaaves/musify/static/media/jslogo.51e8a0f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f3eba2.js",
+    "static/css/2.f524894f.chunk.css",
+    "static/js/2.6be29c9c.chunk.js",
+    "static/css/main.2b99ddeb.chunk.css",
+    "static/js/main.bb2f7325.chunk.js"
+  ]
+}
